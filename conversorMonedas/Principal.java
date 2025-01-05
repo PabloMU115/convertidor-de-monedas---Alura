@@ -58,7 +58,7 @@ public class Principal {
                             lectura = new Scanner(System.in);
                             busqueda = Integer.valueOf(lectura.nextLine());
                             arreglo = datos.obtenerDatos(busqueda,"ARS","USD");
-                            System.out.println("Valor del Dolar: "+arreglo[0]);
+                            System.out.println("Valor del Dolar en relación a un Peso Argentino: "+arreglo[0]);
                             System.out.println("Cantidad de Pesos Argentinos: "+busqueda);
                             System.out.println("Resultado de la conversión: "+arreglo[1]);
                             formattedDateTime = LocalDateTime.now().format(formatter);
@@ -88,7 +88,7 @@ public class Principal {
                             lectura = new Scanner(System.in);
                             busqueda = Integer.valueOf(lectura.nextLine());
                             arreglo = datos.obtenerDatos(busqueda,"BRL","USD");
-                            System.out.println("Valor del Dolar: "+arreglo[0]);
+                            System.out.println("Valor del Dolar en relación a un Real Brasileño: "+arreglo[0]);
                             System.out.println("Cantidad de Reales Brazileños: "+busqueda);
                             System.out.println("Resultado de la conversión: "+arreglo[1]);
                             formattedDateTime = LocalDateTime.now().format(formatter);
@@ -118,7 +118,7 @@ public class Principal {
                             lectura = new Scanner(System.in);
                             busqueda = Integer.valueOf(lectura.nextLine());
                             arreglo = datos.obtenerDatos(busqueda,"COP","USD");
-                            System.out.println("Valor del Dolar: "+arreglo[0]);
+                            System.out.println("Valor del Dolar en relación a un Peso Colombiano: "+arreglo[0]);
                             System.out.println("Cantidad de Pesos Colombianos: "+busqueda);
                             System.out.println("Resultado de la conversión: "+arreglo[1]);
                             formattedDateTime = LocalDateTime.now().format(formatter);
@@ -148,7 +148,7 @@ public class Principal {
                             lectura = new Scanner(System.in);
                             busqueda = Integer.valueOf(lectura.nextLine());
                             arreglo = datos.obtenerDatos(busqueda,"CRC","USD");
-                            System.out.println("Valor del Dolar: "+arreglo[0]);
+                            System.out.println("Valor del Dolar en relación a un Colón Costarricense: "+arreglo[0]);
                             System.out.println("Cantidad de Colones Costarricenses: "+busqueda);
                             System.out.println("Resultado de la conversión: "+arreglo[1]);
                             formattedDateTime = LocalDateTime.now().format(formatter);
@@ -178,7 +178,7 @@ public class Principal {
                             lectura = new Scanner(System.in);
                             busqueda = Integer.valueOf(lectura.nextLine());
                             arreglo = datos.obtenerDatos(busqueda,"CLP","USD");
-                            System.out.println("Valor del Dolar: "+arreglo[0]);
+                            System.out.println("Valor del Dolar en relación a un Peso Chileno: "+arreglo[0]);
                             System.out.println("Cantidad de Pesos Chilenos: "+busqueda);
                             System.out.println("Resultado de la conversión: "+arreglo[1]);
                             formattedDateTime = LocalDateTime.now().format(formatter);
